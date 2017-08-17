@@ -2,6 +2,9 @@
 import DATA from '../DATA'
 import getProductsForOrder from './getProductsForOrder'
 
+
+//(data, orderId => an array of products)
+
 describe('getProductsForOrder', () => {
   it(
     'is a function',
